@@ -171,6 +171,7 @@ h1,h2,h3,h4,p{
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 
@@ -181,10 +182,7 @@ h1,h2,h3,h4,p{
   font-weight: normal;
 }
 
-.section__title_margin_theme_white{
-  margin-top: 100px;
-  margin-bottom: 20px;
-}
+
 
 .section-subtitle_margin_theme_white{
   margin-bottom: 60px;
@@ -212,13 +210,11 @@ h1,h2,h3,h4,p{
 
 
 }
-
-
-
-.table__cell_margin_bottom_white_dark{
+.table__cell{
   margin-bottom: 60px;
-  box-sizing: border-box;
+  width: 250px;
 }
+
 
 .table__cell_width_theme_dark{
   width: 200px;
@@ -226,10 +222,6 @@ h1,h2,h3,h4,p{
 
 .table__cell_margin_bottom_theme_dark{
   margin-bottom: 80px;
-}
-
-.table__cell_width{
-  width: 250px;
 }
 
 .table__heading{
@@ -247,7 +239,7 @@ h1,h2,h3,h4,p{
   font-weight: normal;
 }
 
-.table__paragraph_1{
+.table__paragraph_margin{
   margin-bottom: 20px;
 }
 
