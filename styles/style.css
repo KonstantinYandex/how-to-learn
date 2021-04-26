@@ -76,7 +76,7 @@ h1,h2,h3,h4,p{
 .title {
   line-height: 96px;
   font-size: 102px;
-  font-weight: 450; /*Если 900 -максимум,то 450 самый полужирный из полужирных,так:)?*/
+  font-weight: bold;
   width: 730px;
   position: absolute;
   left: 64px;
@@ -96,6 +96,7 @@ h1,h2,h3,h4,p{
 }
 
 .link {
+  text-decoration: none;
   color:#2f80ed;
 }
 
@@ -134,25 +135,18 @@ h1,h2,h3,h4,p{
 }
 
 .two-columns__paragraph{
+  margin-bottom: 30px;
+  font-weight: normal;
   line-height: 34px;
   font-size: 24px;
+}
 
+.two-columns__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent{
   font-weight: 700;
-}
-
-.two-columns__paragraph_font-weight_normal{
-  font-weight: normal;
-}
-
-.two-columns__paragraph_font-weight_bold{
-  font-weight: 450;
-}
-
-.two-columns__paragraph_margin-bottom{
-  margin-bottom: 30px;
 }
 
 /*DESCRIPTION*/
@@ -177,23 +171,19 @@ h1,h2,h3,h4,p{
 
 
 .section-subtitle{
+  margin-bottom: 60px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
 
-
-.section-subtitle_margin_theme_white{
-  margin-bottom: 60px;
-}
-
-.section__title_margin_theme_dark{
+.section-title__theme_dark{
   margin-top: 90px;
-  margin-bottom: 20px;
+
 }
 
-.section-subtitle_margin_theme_black{
+.section-subtitle__theme_dark{
   margin-bottom: 80px;
 }
 
@@ -215,14 +205,13 @@ h1,h2,h3,h4,p{
   width: 250px;
 }
 
-
-.table__cell_width_theme_dark{
+.table__cell_theme_dark{
   width: 200px;
+  margin-bottom: 80px;
+  margin-right: 0;
 }
 
-.table__cell_margin_bottom_theme_dark{
-  margin-bottom: 80px;
-}
+
 
 .table__heading{
   line-height: 1.15;
@@ -239,8 +228,12 @@ h1,h2,h3,h4,p{
   font-weight: normal;
 }
 
-.table__paragraph_margin{
+.table__paragraph{
   margin-bottom: 20px;
+}
+
+.table__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 /*FEYNMAN*/
@@ -366,7 +359,6 @@ h1,h2,h3,h4,p{
 
 
 .footer__column-links{
-
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -421,13 +413,5 @@ h1,h2,h3,h4,p{
 
 
 
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 
