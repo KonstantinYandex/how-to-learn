@@ -76,3 +76,36 @@ ___________________________
 Наставники
 Соцсети
 
+.section-title_margin_top{
+  margin-top: 90px;
+}
+
+.section-title_margin-bottom-20{
+  margin-bottom: 20px;
+}
+
+
+src="../how-to-learn/images/kaufman-triangle.svg" alt="Треугольник" class=""
+
+
+            <a href="#" alt='Facebook' class="footer__column-link">
+              <img src="../how-to-learn/images/facebook_color_white.svg" alt="Facebook" class=".footer__social-icon">
+              Facebook
+            </a>
+            <a href="#" alt='ВКонтакте' class="footer__column-link">
+              <img src="../how-to-learn/images/vk_color_white.svg" alt="ВКонтакте" class=".footer__social-icon">
+              ВКонтакте
+            </a>
+            <a href="#" alt='Ins' class="footer__column-link">
+              <img src="../how-to-learn/images/instagram_color_white.svg" alt="Instagram" class=".footer__social-icon">
+              Instagram
+            </a>
+
+            <div class="footer__column-links">
+            <img src="../how-to-learn/images/facebook_color_white.svg" alt="Facebook" class="footer__social-icon">
+            <a href="#" class="footer__column-link">Facebook</a>
+            <img src="../how-to-learn/images/facebook_color_white.svg" alt="ВКонтакте" class="footer__social-icon">
+            <a href="#" class="footer__column-link">ВКонтакте</a>
+            <img src="../how-to-learn/images/facebook_color_white.svg" alt="Instagram" class="footer__social-icon">
+            <a href="#" class="footer__column-link">Instagram</a>
+          </div>
